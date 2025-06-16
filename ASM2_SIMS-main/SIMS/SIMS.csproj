@@ -1,0 +1,100 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\Views\Admins\CreateStudent.cshtml" />
+    <None Include="Views\Views\Admins\DashBoard.cshtml" />
+    <None Include="Views\Views\Admins\Login.cshtml" />
+    <None Include="Views\Views\Classes\Create.cshtml" />
+    <None Include="Views\Views\Classes\Delete.cshtml" />
+    <None Include="Views\Views\Classes\Details.cshtml" />
+    <None Include="Views\Views\Classes\Edit.cshtml" />
+    <None Include="Views\Views\Classes\Index.cshtml" />
+    <None Include="Views\Views\Classes\ViewClass.cshtml" />
+    <None Include="Views\Views\Courses\Create.cshtml" />
+    <None Include="Views\Views\Courses\Delete.cshtml" />
+    <None Include="Views\Views\Courses\Details.cshtml" />
+    <None Include="Views\Views\Courses\Edit.cshtml" />
+    <None Include="Views\Views\Courses\Index.cshtml" />
+    <None Include="Views\Views\Courses\ViewCourse.cshtml" />
+    <None Include="Views\Views\Home\Index.cshtml" />
+    <None Include="Views\Views\Home\Privacy.cshtml" />
+    <None Include="Views\Views\Scores\Create.cshtml" />
+    <None Include="Views\Views\Scores\Delete.cshtml" />
+    <None Include="Views\Views\Scores\Details.cshtml" />
+    <None Include="Views\Views\Scores\Edit.cshtml" />
+    <None Include="Views\Views\Scores\Index.cshtml" />
+    <None Include="Views\Views\Scores\ViewScores.cshtml" />
+    <None Include="Views\Views\Shared\Error.cshtml" />
+    <None Include="Views\Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Views\Shared\_LayoutUser.cshtml" />
+    <None Include="Views\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\Views\Students\Delete.cshtml" />
+    <None Include="Views\Views\Students\Details.cshtml" />
+    <None Include="Views\Views\Students\Edit.cshtml" />
+    <None Include="Views\Views\Students\HomePage.cshtml" />
+    <None Include="Views\Views\Students\Index.cshtml" />
+    <None Include="Views\Views\Students\Login.cshtml" />
+    <None Include="Views\Views\Students\Profile.cshtml" />
+    <None Include="Views\Views\_ViewImports.cshtml" />
+    <None Include="Views\Views\_ViewStart.cshtml" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+  </ItemGroup>
+
+</Project>

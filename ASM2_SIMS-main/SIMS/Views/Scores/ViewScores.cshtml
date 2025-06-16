@@ -1,0 +1,36 @@
+﻿@model IEnumerable<SIMS.Models.Score>
+
+@{
+    ViewData["Title"] = "Score Index";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<h1 class="my-4">ViewScore</h1>
+
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollment.EnrollmentId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Score1)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Enrollment.EnrollmentId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Score1)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

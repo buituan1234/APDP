@@ -1,0 +1,38 @@
+﻿@model IEnumerable<SIMS.Models.Course>
+
+@{
+    ViewData["Title"] = "Course Index";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h1 class="my-4">ViewCourse</h1>
+
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
